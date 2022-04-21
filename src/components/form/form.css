@@ -1,0 +1,47 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #eee;
+}
+
+.selectorSubgroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+}
+
+.vehicleInput {
+  width: 350px;
+  /* margin: 10px; */
+  height: 30px;
+  max-height: 30px;
+  padding: 1px 5px;
+}
+
+.yearSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yearInput {
+  width: 120px;
+  height: 30px;
+  padding: 1px 5px;
+  border: 1px solid transparent;
+}
+
+.hideYearInput {
+  width: 120px;
+  height: 30px;
+  padding: 1px 5px;
+  border: 1px solid transparent;
+  display: none;
+}
+
+.submitButton {
+  margin: 5px;
+}
